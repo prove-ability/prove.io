@@ -1,0 +1,16 @@
+language: node_js
+os: linux
+node_js:
+  - lts/*
+install:
+  - yarn install # npm ci
+script:
+  - yarn docs:build # npm run docs:build
+deploy:
+  provider: pages
+  local_dir: docs/.vuepress/dist
+  token:
+    secure: VkEfvYQsiiCb5xX6xzkzN6arQqZp808aJRLOpJLNHlTNTD/tSG40H1dGdtTyeGTFfszf9t0zi+XXOCwmr6TUZM+AZ/VCdI25K9T3uGAip5TW/tvRGqhY/LGTKHBvXykvgkAfl6mx2MTVFy4JYEhnml/QfoJI015PDJGebqYV3+MoyPCkbcsmJbMjE41VxgdhTrHYWlRxU0BYtAXkclYQ0qxNJfLNOC4SqhB0gUyhePARsEgmykraq5ZbL879fWbbQp6dbv845MmzmF+7G0NH87mSDKcOgt77FILI+ny+dgEPmppoftMG8pNxjBMIIDYo65D68lPKWlhyQjcmnCTyp7uNSq+TGcDlbbPjBWcvVUPS6ncm35y+kjN+Z830kBTyStdwRW56Hhdi1AYEneM65SxAqWd3/aQUWhD4ni5nw+Mml+35RNJ0LycY3j12ezj1OkBqU+XVD6SkvFFOOTovsAf0jdYwcpTVWnS02VR6YIe9a23geqDsaQ/2AyfEDz9rbIoLn6EhsledXYVU6yp+mACblpqLW7K5EOlGhkWGPOGpuL1nCpuSTHrbkcv906D01RsFxe6M0Gn9HRC+dgfLAHPcAV5m/4t8X4nLHJbTWvwft2S48rIpvipumqtOxWsTxtHRfazWRTQVSf3FCxp8te3UdToY2GuLQrLggo4EVDY=
+  keep_history: true
+  on:
+    branch: master

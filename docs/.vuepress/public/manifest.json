@@ -1,0 +1,16 @@
+{
+	"name": "proveDevBlog",
+	"short_name": "prove",
+	"start_url": "/?utm_source=homescreen",
+	"icons": [
+		{
+			"src": "/logo.png",
+			"sizes": "144x144",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#000000",
+	"background_color": "#FFFFFF",
+	"display": "fullscreen",
+	"orientation": "portrait"
+}
