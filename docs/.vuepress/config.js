@@ -1,6 +1,6 @@
 module.exports = {
 	title: 'prove dev',
-	description: 'Just playing around',
+	description: 'Just playing around2',
 	base: '/',
 	themeConfig: {
 		// lastUpdated: 'Last Updated',
