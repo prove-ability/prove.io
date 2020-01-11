@@ -1,8 +1,7 @@
 module.exports = {
 	title: 'prove dev',
 	description: 'Just playing around',
-	// base: '/docs/',
-	base: '/',
+	base: '/docs/',
 	themeConfig: {
 		// lastUpdated: 'Last Updated',
 		smoothScroll: true,
