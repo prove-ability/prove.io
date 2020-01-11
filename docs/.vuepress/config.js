@@ -1,11 +1,11 @@
 module.exports = {
 	title: 'prove dev',
 	description: 'Just playing around2',
-	base: '/gh-pages',
+	base: '/',
 	themeConfig: {
 		// lastUpdated: 'Last Updated',
 		smoothScroll: true,
-		logo: '/logo.png',
+		logo: './logo.png',
 		sidebar: [
 			{
 				title: 'about prove', // required
