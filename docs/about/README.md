@@ -29,6 +29,6 @@ export default {
 ```
 ::: details Click me to view the code
 ```js
-console.log('Hello, VuePress!')
+console.log('Hello, VuePress!2')
 ```
 :::
