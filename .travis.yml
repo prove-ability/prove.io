@@ -7,10 +7,10 @@ install:
 script:
 - yarn docs:build
 deploy:
-  provider: pages
+  provider: gh-pages
   local_dir: docs/.vuepress/dist
   token:
     secure: WqOaz0LxzqMmGdTr48uNRsdav6p9eVTOn5nVkAKQ9N04IRC3zO5kfkaKi1xdJGsl52S/aCbY7oYzN+Joj78I3UL4yYyUSDy4Mzdanf3g1C8s1jmIxbhNLsDVwHPAt58z/kYwGVjogd5Yo37Ne4YVj0u16zb7RFPJHG0Ib0UIdMOuxyNi6d56g46uUXJAZP38R5vMIq+y+sznHLwtBQmOsn1aqYY4Hd3hdG0GwKzqNml5MpW2De7hZP6uDnsny1UP2SyYErLV8k2cKv7gR5rVOo7GNCENheSwH0DSx1GSypM8OSbN2EZPJa12SJwYcipPSms0bU9Z7wUa6pWEhUOhhrrecqDpucMPiWX/qTU6lxeXFXJhPq0O4QfW1643tj7GYg8ld3BCIPZtthaTa7TXOrb13kLt63TagbTvcJM2n3PJ/+gCzBHIIRTnbckt97onY8qqHb8GXB1caVVIFvw6uLCLJL12uFnqzEnFR5kaqE80x7oSkowSHLJ0WE7LzDCWX2/Be2lo3QqeQkpAZSL32X2mHE02PKQ0+f/Bgbhnd40pOEP5bjXXGas+iWQQqjPG+ai+gBDgtMA/H6GfE+dr83sZtUv1VMrxUpQsE0QkVRow6raWtRGBVoLHtS6hfZLkiLV3KmemMQQMy4455fjHWXqa74PkPpeClfOGy4+3hEo=
   keep_history: true
   on:
-    branch: gh-pages
+    branch: master
